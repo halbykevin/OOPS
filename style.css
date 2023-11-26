@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #9e3722;
 }
 
+body {
+  background-color: #446438;
+}
 .header {
+  background-color: #446438;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +16,7 @@
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
 }
 
@@ -36,7 +39,7 @@
   z-index: 999;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: #9E3722;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 100px;
@@ -61,6 +64,27 @@
   color: white;
 }
 
+.slider {
+    max-width: 600px; /* Adjust based on desired width */
+    margin: 20px auto; /* Centers the slider */
+    position: relative;
+}
+
+.slides {
+    width: 100%;
+    height: auto;
+    visibility: hidden; /* Use visibility instead of display */
+    opacity: 0; /* Start with zero opacity */
+    transition: visibility 0s, opacity 1s ease-in-out; /* Add transition for visibility */
+    position: absolute; /* Position slides absolutely within the relative container */
+}
+
+.showSlide {
+    visibility: visible; /* Make the slide visible */
+    opacity: 1; /* Fully visible */
+    transition: visibility 0s 0s, opacity 1s ease-in-out; /* Adjust transition timing */
+}
+
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
   .side-menu-button {
@@ -70,4 +94,8 @@
   .side-menu a {
     font-size: 6vw;
   }
+
+  .logo {
+        max-width: 70%; /* Adjust logo size on smaller screens */
+    }
 }

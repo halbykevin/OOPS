@@ -25,3 +25,21 @@ window.onclick = function (event) {
     closeSideMenu();
   }
 };
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("showSlide");
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  slides[slideIndex - 1].classList.add("showSlide");
+
+  setTimeout(showSlides, 1500); // Change image every 4 seconds, adjust as needed
+}

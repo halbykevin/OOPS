@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ...Side-Button... */
+/* Side Menu Button Styling */
+.side-menu-button {
+  position: fixed;
+  top: 5vh; /* Adjusted for better visibility on various devices */
+  right: 5%; /* Use percentage for better responsiveness */
+  font-size: 6vw; /* Adjusts size based on viewport width */
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Side Menu Styling */
+.side-menu {
+  height: 100%;
+  width: 0; /* Initially hidden */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.side-menu a {
+  padding: 8px 8px 8px 4vw; /* Adjusted for responsiveness */
+  text-decoration: none;
+  font-size: 5vw; /* Adjusted for responsiveness */
+  color: white;
+  display: block;
+  transition: 0.3s;
+  margin-bottom: 80px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  .side-menu-button {
+    font-size: 8vw;
+  }
+
+  .side-menu a {
+    font-size: 6vw;
+  }
+}

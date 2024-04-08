@@ -1,13 +1,13 @@
 function toggleSideMenu() {
-  var sideMenu = document.getElementById("sideMenu");
-  var menuButton = document.getElementsByClassName("side-menu-button")[0];
+  var menu = document.getElementById("sideMenu");
+  var menuButton = document.querySelector(".side-menu-button"); // Select the menu button
 
-  if (sideMenu.style.width === "250px") {
-    sideMenu.style.width = "0";
-    menuButton.style.display = "block";
+  if (menu.style.width === "100%") {
+      menu.style.width = "0"; // Hide the menu
+      menuButton.style.display = "block"; // Show the menu button
   } else {
-    sideMenu.style.width = "250px";
-    menuButton.style.display = "none";
+      menu.style.width = "100%"; // Show the menu full width
+      menuButton.style.display = "none"; // Hide the menu button
   }
 }
 
@@ -41,5 +41,5 @@ function showSlides() {
   }
   slides[slideIndex - 1].classList.add("showSlide");
 
-  setTimeout(showSlides, 1500); // Change image every 4 seconds, adjust as needed
+  setTimeout(showSlides, 2000); // Change image every 4 seconds, adjust as needed
 }

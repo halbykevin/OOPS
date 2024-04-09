@@ -92,7 +92,7 @@ body {
 
 .menu-button {
   display: block;
-  margin: 830px auto; /* Adjust top margin as needed */
+  margin: 750px auto; /* Adjust top margin as needed */
   padding: 25px 120px;
   background-color: #9E3723;
   color: white;
@@ -104,7 +104,7 @@ body {
 
 .slogan {
   position: absolute;
-  top: 1500px; /* Adjusted to 50% for centering */
+  top: 1400px; /* Adjusted to 50% for centering */
   left: 50%;
   transform: translate(-50%, -50%);
   font-family:'bellmt';

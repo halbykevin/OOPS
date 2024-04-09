@@ -3,11 +3,11 @@ function toggleSideMenu() {
   var menuButton = document.querySelector(".side-menu-button"); // Select the menu button
 
   if (menu.style.width === "100%") {
-      menu.style.width = "0"; // Hide the menu
-      menuButton.style.display = "block"; // Show the menu button
+    menu.style.width = "0"; // Hide the menu
+    menuButton.style.display = "block"; // Show the menu button
   } else {
-      menu.style.width = "100%"; // Show the menu full width
-      menuButton.style.display = "none"; // Hide the menu button
+    menu.style.width = "100%"; // Show the menu full width
+    menuButton.style.display = "none"; // Hide the menu button
   }
 }
 

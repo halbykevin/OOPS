@@ -8,7 +8,7 @@ body {
   background-color: white;
 }
 .header_logo {
-  background-color: #9E3723;
+  background-color: #9e3723;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +39,7 @@ body {
   z-index: 999;
   top: 0;
   right: 0;
-  background-color: #9E3723;
+  background-color: #9e3723;
   overflow-x: hidden;
   transition: width 0.5s ease-in-out;
   display: flex; /* Makes .side-menu a flex container */
@@ -47,7 +47,7 @@ body {
   justify-content: center; /* Centers child elements vertically */
   align-items: center; /* Centers child elements horizontally */
   padding-top: 0; /* Adjust or remove as needed */
-} 
+}
 
 .side-menu a {
   padding: 8px 8px 8px 4vw; /* Adjusted for responsiveness */
@@ -57,7 +57,7 @@ body {
   display: block;
   transition: 0.3s;
   margin-bottom: 80px;
-  font-size: 80px; 
+  font-size: 80px;
 }
 
 .closebtn {
@@ -70,31 +70,31 @@ body {
 }
 
 .slider {
-    max-width: 600px; /* Adjust based on desired width */
-    margin: 20px auto 10px; /* Centers the slider */
-    position: relative;
+  max-width: 600px; /* Adjust based on desired width */
+  margin: 20px auto 10px; /* Centers the slider */
+  position: relative;
 }
 
 .slides {
-    width: 100%;
-    height: auto;
-    visibility: hidden; /* Use visibility instead of display */
-    opacity: 0; /* Start with zero opacity */
-    transition: visibility 0s, opacity 1s ease-in-out; /* Add transition for visibility */
-    position: absolute; /* Position slides absolutely within the relative container */
+  width: 100%;
+  height: auto;
+  visibility: hidden; /* Use visibility instead of display */
+  opacity: 0; /* Start with zero opacity */
+  transition: visibility 0s, opacity 1s ease-in-out; /* Add transition for visibility */
+  position: absolute; /* Position slides absolutely within the relative container */
 }
 
 .showSlide {
-    visibility: visible; /* Make the slide visible */
-    opacity: 1; /* Fully visible */
-    transition: visibility 0s 0s, opacity 1s ease-in-out; /* Adjust transition timing */
+  visibility: visible; /* Make the slide visible */
+  opacity: 1; /* Fully visible */
+  transition: visibility 0s 0s, opacity 1s ease-in-out; /* Adjust transition timing */
 }
 
 .menu-button {
   display: block;
   margin: 750px auto; /* Adjust top margin as needed */
   padding: 25px 120px;
-  background-color: #9E3723;
+  background-color: #9e3723;
   color: white;
   border: none;
   border-radius: 5px;
@@ -107,9 +107,9 @@ body {
   top: 1400px; /* Adjusted to 50% for centering */
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family:'bellmt';
+  font-family: "bellmt";
   font-size: 90px; /* Large font size */
-  color: #9E3723;
+  color: #9e3723;
   z-index: 1001;
   white-space: nowrap; /* Keeps the text on a single line */
 }
@@ -127,7 +127,8 @@ svg {
 .content {
   flex-grow: 1; /* Allows this container to grow and take up available space */
 }
-html, body {
+html,
+body {
   height: 100%; /* Necessary for flexbox layout */
   display: flex;
   flex-direction: column; /* Stacks content vertically */
@@ -147,12 +148,12 @@ body {
   margin-left: 5px; /* Adds some space between the text and the logo */
 }
 .powered-by {
-  margin-bottom:10px;
+  margin-bottom: 10px;
   margin-top: 20px;
   font-size: 40px; /* Adjusts the font size of the text */
 }
 .powered-by a {
-  text-decoration:none;
+  text-decoration: none;
   color: black;
 }
 /* Responsive adjustments for smaller screens */
@@ -166,6 +167,6 @@ body {
   }
 
   .logo {
-        max-width: 70%; /* Adjust logo size on smaller screens */
-    }
+    max-width: 70%; /* Adjust logo size on smaller screens */
+  }
 }

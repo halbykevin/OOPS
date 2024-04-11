@@ -94,7 +94,7 @@ body {
   display: block;
   margin: 750px auto 40px; /* Adjusted top margin and bottom margin for spacing */
   padding: 25px 120px;
-  background-color: #9E3723;
+  background-color: #9e3723;
   color: white;
   border: none;
   border-radius: 5px;
@@ -104,7 +104,7 @@ body {
 
 .slogan-image {
   display: block;
-  margin: 200px auto; /* Adjust top margin to control spacing from the menu button above */
+  margin: 160px auto; /* Adjust top margin to control spacing from the menu button above */
   width: 600px; /* Adjust width as needed */
   height: auto; /* Keeps the aspect ratio */
 }
@@ -163,14 +163,14 @@ body {
   font-family: "bellmt";
   margin: 0;
   font-size: 75px; /* Adjust size as needed */
-  color: #9E3723; /* Adjust color as needed */
+  color: #9e3723; /* Adjust color as needed */
 }
 
 .back-button {
   position: absolute;
   left: 20px; /* Adjust as needed */
   font-size: 90px; /* Adjust size as needed */
-  color: #9E3723; /* Adjust color as needed */
+  color: #9e3723; /* Adjust color as needed */
   text-decoration: none;
 }
 .about-us-description {

@@ -92,9 +92,9 @@ body {
 
 .menu-button {
   display: block;
-  margin: 750px auto; /* Adjust top margin as needed */
+  margin: 750px auto 40px; /* Adjusted top margin and bottom margin for spacing */
   padding: 25px 120px;
-  background-color: #9e3723;
+  background-color: #9E3723;
   color: white;
   border: none;
   border-radius: 5px;
@@ -102,16 +102,11 @@ body {
   font-size: 45px;
 }
 
-.slogan {
-  position: absolute;
-  top: 1400px; /* Adjusted to 50% for centering */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: "bellmt";
-  font-size: 90px; /* Large font size */
-  color: #9e3723;
-  z-index: 1001;
-  white-space: nowrap; /* Keeps the text on a single line */
+.slogan-image {
+  display: block;
+  margin: 200px auto; /* Adjust top margin to control spacing from the menu button above */
+  width: 600px; /* Adjust width as needed */
+  height: auto; /* Keeps the aspect ratio */
 }
 
 .footer {
@@ -192,6 +187,7 @@ body {
   width: 150px; /* Adjust width as needed */
   height: auto; /* Maintains aspect ratio */
 }
+
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
   .side-menu-button {

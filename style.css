@@ -156,6 +156,42 @@ body {
   text-decoration: none;
   color: black;
 }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+}
+
+.header h1 {
+  font-family: "bellmt";
+  margin: 0;
+  font-size: 90px; /* Adjust size as needed */
+  color: #9E3723; /* Adjust color as needed */
+}
+
+.back-button {
+  position: absolute;
+  left: 20px; /* Adjust as needed */
+  font-size: 90px; /* Adjust size as needed */
+  color: #9E3723; /* Adjust color as needed */
+  text-decoration: none;
+}
+.about-us-description {
+  font-family: Arial, Helvetica, sans-serif; /* Example font, replace with your choice */
+  font-size: 10px; /* Example size, adjust as needed */
+  color: #333333; /* Dark grey color, adjust as needed */
+  text-align: center; /* Center the text under the header */
+  margin-top: 10px; /* Add space between the header and the text */
+}
+
+.about-us-logo {
+  display: block;
+  margin: 40px auto; /* Adjusts the top and bottom margin, auto centers horizontally */
+  width: 150px; /* Adjust width as needed */
+  height: auto; /* Maintains aspect ratio */
+}
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 600px) {
   .side-menu-button {

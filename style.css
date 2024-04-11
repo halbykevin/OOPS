@@ -167,7 +167,7 @@ body {
 .header h1 {
   font-family: "bellmt";
   margin: 0;
-  font-size: 90px; /* Adjust size as needed */
+  font-size: 75px; /* Adjust size as needed */
   color: #9E3723; /* Adjust color as needed */
 }
 
@@ -180,7 +180,7 @@ body {
 }
 .about-us-description {
   font-family: Arial, Helvetica, sans-serif; /* Example font, replace with your choice */
-  font-size: 10px; /* Example size, adjust as needed */
+  font-size: 12px; /* Example size, adjust as needed */
   color: #333333; /* Dark grey color, adjust as needed */
   text-align: center; /* Center the text under the header */
   margin-top: 10px; /* Add space between the header and the text */

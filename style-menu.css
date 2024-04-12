@@ -72,7 +72,7 @@ body {
   color: white; /* Text color */
   border: none;
   padding: 20px; /* Button padding */
-  font-size: 16px; /* Text size */
+  font-size: 18px; /* Text size */
   cursor: pointer;
   transition: background-color 0.3s;
   text-align: center; /* Center button text */
@@ -93,6 +93,7 @@ body {
 
 /* Style for the scrollable menu container */
 .scrollable-menu {
+  padding-left: 8px;
   display: flex;
   overflow-x: auto;
   white-space: nowrap;
@@ -139,6 +140,7 @@ body {
   justify-content: space-between;
   background-color: #f9eae1; /* Change to match your desired background color */
   padding: 10px;
+  padding-left: 30px;
   border-radius: 10px; /* Adjust as needed for rounded corners */
   margin: 10px 0; /* Space between items */
 }
@@ -148,8 +150,8 @@ body {
 }
 
 .item-title {
-  font-family: Helvetica, Sans-Serif; /* Change to the font you want */
-  font-size: 24px; /* Adjust the size as needed */
+  font-family: "bell mt"; /* Change to the font you want */
+  font-size: 15px; /* Adjust the size as needed */
   font-weight: bold; /* Make the title bold */
   color: #9e3723; /* Color of the text */
   margin: 0 0 5px 0; /* Add some space below the title */
@@ -157,15 +159,19 @@ body {
 
 .item-description {
   font-family: "Arial", sans-serif; /* Change to the font you want */
-  font-size: 16px; /* Adjust the size as needed */
-  color: #9e3723; /* Color of the text */
+  font-size: 12px; /* Adjust the size as needed */
+  color: black; /* Color of the text */
   margin: 0; /* Resets margin */
 }
 
 .item-price {
-  font-family: "Arial", sans-serif; /* Change to the font you want */
-  font-size: 24px; /* Adjust the size as needed */
+  font-family: "Roboto", light, sans-serif; /* Change to the font you want */
+  font-size: 15px; /* Adjust the size as needed */
   font-weight: bold; /* Make the price bold */
   color: #9e3723; /* Color of the price */
   margin: 0; /* Resets margin */
+}
+.menu-button a{
+  text-decoration: none;
+  color: white;
 }

@@ -132,3 +132,40 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.item-container {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between;
+  background-color: #f9eae1; /* Change to match your desired background color */
+  padding: 10px;
+  border-radius: 10px; /* Adjust as needed for rounded corners */
+  margin: 10px 0; /* Space between items */
+}
+
+.item-text {
+  flex-grow: 1; /* Allows the text container to grow and fill space */
+}
+
+.item-title {
+  font-family: Helvetica, Sans-Serif; /* Change to the font you want */
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold; /* Make the title bold */
+  color: #9e3723; /* Color of the text */
+  margin: 0 0 5px 0; /* Add some space below the title */
+}
+
+.item-description {
+  font-family: "Arial", sans-serif; /* Change to the font you want */
+  font-size: 16px; /* Adjust the size as needed */
+  color: #9e3723; /* Color of the text */
+  margin: 0; /* Resets margin */
+}
+
+.item-price {
+  font-family: "Arial", sans-serif; /* Change to the font you want */
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold; /* Make the price bold */
+  color: #9e3723; /* Color of the price */
+  margin: 0; /* Resets margin */
+}

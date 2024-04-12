@@ -42,7 +42,80 @@
       <button class="menu-item">DESSERTS</button>
       <!-- Add more buttons if needed -->
     </div>
+
+    <div class="item-container" data-category="starters">
+      <div class="item-text">
+        <h2 class="item-title">OOPS FRIES</h2>
+        <p class="item-description">Cheddar, honey, hi i love u</p>
+      </div>
+      <div class="item-price">9$</div>
+    </div>
+
+    <div class="item-container" data-category="burgers">
+      <div class="item-text">
+        <h2 class="item-title">OOPS FRIES</h2>
+        <p class="item-description">Cheddar, honey, hi i love u</p>
+      </div>
+      <div class="item-price">9$</div>
+    </div>
+
+    <div class="item-container" data-category="burgers">
+      <div class="item-text">
+        <h2 class="item-title">OOPS FRIES</h2>
+        <p class="item-description">Cheddar, honey, hi i love u</p>
+      </div>
+      <div class="item-price">9$</div>
+    </div>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // ... other code remains the same
+
+      // Get all menu items and menu buttons
+      const menuItems = document.querySelectorAll(".item-container");
+      const menuButtons = document.querySelectorAll(".menu-item");
+
+      // Function to show only items from a specific category
+      function showCategoryItems(category) {
+        // Loop through all items
+        menuItems.forEach((item) => {
+          // Check if the item's category matches the selected category
+          if (
+            item.getAttribute("data-category") === category ||
+            category === "all"
+          ) {
+            item.style.display = ""; // Show item
+          } else {
+            item.style.display = "none"; // Hide item
+          }
+        });
+
+        // Update buttons active state
+        menuButtons.forEach((btn) => {
+          if (
+            btn.textContent.toLowerCase() === category ||
+            category === "all"
+          ) {
+            btn.classList.add("active");
+          } else {
+            btn.classList.remove("active");
+          }
+        });
+      }
+
+      // Add click event to each menu button
+      menuButtons.forEach((button) => {
+        button.addEventListener("click", function () {
+          // Pass the button's text content to the showCategoryItems function
+          showCategoryItems(button.textContent.toLowerCase());
+        });
+      });
+
+      // Initially show all items
+      showCategoryItems("all");
+    });
+  </script>
+
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       let currentSlide = 0;

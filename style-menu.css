@@ -90,3 +90,45 @@ body {
 .menu-button:hover {
   background-color: #7d2f1d; /* Darker shade for hover effect */
 }
+
+/* Style for the scrollable menu container */
+.scrollable-menu {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 10px 0;
+}
+
+/* Style for each menu button */
+.menu-item {
+  font-family: "bellmt";
+  display: inline-block;
+  background-color: white;
+  color: #9e3723;
+  border: 1px solid #9e3723;
+  padding: 10px 20px;
+  margin-right: 10px; /* Space between buttons */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 25px; /* Rounded borders for buttons */
+}
+
+/* Style for the active or selected button */
+.menu-item.active,
+.menu-item:hover {
+  background-color: #9e3723;
+  border-color: #9e3723;
+  color: white;
+}
+
+/* Remove scrollbar appearance */
+.scrollable-menu::-webkit-scrollbar {
+  display: none;
+}
+
+/* For non-webkit browsers */
+.scrollable-menu {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

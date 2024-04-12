@@ -36,13 +36,12 @@
     </div>
 
     <div class="scrollable-menu">
-      <button class="menu-item active">STARTERS</button>
+      <button class="menu-item">STARTERS</button>
       <button class="menu-item">BURGERS</button>
       <button class="menu-item">PIZZAS</button>
       <button class="menu-item">DESSERTS</button>
       <!-- Add more buttons if needed -->
     </div>
-    
   </body>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -84,7 +83,7 @@
       setInterval(function () {
         let nextSlide = (currentSlide + 1) % totalSlides;
         goToSlide(nextSlide);
-      }, 1500); // Change slide every 4 seconds
+      }, 1500); // Change slide every 1.5 seconds
     });
   </script>
 </html>

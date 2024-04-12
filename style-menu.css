@@ -72,7 +72,7 @@ body {
   color: white; /* Text color */
   border: none;
   padding: 20px; /* Button padding */
-  font-size: 18px; /* Text size */
+  font-size: 16px; /* Text size */
   cursor: pointer;
   transition: background-color 0.3s;
   text-align: center; /* Center button text */
@@ -109,7 +109,7 @@ body {
   border: 1px solid #9e3723;
   padding: 10px 20px;
   margin-right: 5px; /* Space between buttons */
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   transition: background-color 0.3s;
   border-radius: 25px; /* Rounded borders for buttons */

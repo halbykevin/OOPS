@@ -102,6 +102,7 @@ body {
 
 /* Style for each menu button */
 .menu-item {
+  text-transform: uppercase;
   font-family: "bellmt";
   display: inline-block;
   background-color: white;
@@ -150,6 +151,7 @@ body {
 }
 
 .item-title {
+  text-transform: uppercase;
   font-family: "bell mt"; /* Change to the font you want */
   font-size: 15px; /* Adjust the size as needed */
   font-weight: bold; /* Make the title bold */

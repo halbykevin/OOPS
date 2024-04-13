@@ -6,7 +6,7 @@
 
 body {
   font-family: "Arial", sans-serif;
-  background: #f9eae1; /* This is a placeholder color */
+  background: white; /* This is a placeholder color */
 }
 
 .slider {
@@ -139,7 +139,7 @@ body {
   display: flex;
   align-items: flex-start; /* Align items to the top */
   justify-content: space-between;
-  background-color: #f9eae1; /* Change to match your desired background color */
+  background-color: white; /* Change to match your desired background color */
   padding: 10px;
   padding-left: 30px;
   border-radius: 10px; /* Adjust as needed for rounded corners */

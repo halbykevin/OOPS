@@ -41,7 +41,7 @@ body {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: white;
+  background-color: rgb(110, 108, 108);
   margin: 0 5px;
   cursor: pointer;
 }
@@ -60,9 +60,10 @@ body {
 }
 
 .menu-buttons-container {
+  margin-top: -1px; /* Adjust this value as needed */
+  margin-bottom: 2.5px;
   display: flex; /* Use flexbox to align items */
   justify-content: space-between; /* Aligns children to the edges of the container */
-  margin-top: 10px; /* Space above the buttons */
 }
 
 .menu-button {
